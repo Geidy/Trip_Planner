@@ -8,6 +8,7 @@ model = "gpt-4o-mini"
 client = openai.OpenAI(api_key=api_key)
 
 # Define the messages list correctly (as a list of dicts)
+# Define roles System/ User / Assistant messages
 conversation = [
      {"role": "system",
      "content": "You are a Top Parisian travel expert"},
